@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "PT Serif", serif;
+  font-size: 15px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+//import
+
+@import "blocks/header.scss";
