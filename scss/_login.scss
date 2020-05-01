@@ -1,0 +1,99 @@
+//var
+$bg-fon: #272727;
+$colwin: rgb(250, 250, 250);
+
+html {
+    background-color: $bg-fon;
+}
+
+
+.login__wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+.login {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+    .logo__wrap {
+        align-self: center;
+        max-height: 15rem;
+        max-width: 15rem;
+        z-index: 1;
+    .logo {
+        width: 100%;
+        height: 100%;
+    }
+    }
+    &__window {
+        width: 50rem;
+        min-height: 25rem;
+        border: 3px solid red;
+        background-color: $colwin;
+        border-radius: 5rem;
+        margin-top: -2rem;
+        transition: margin-top .3s;
+        box-sizing: border-box;
+    }
+
+    &__window:hover{
+        margin-top: -3rem;
+    }
+
+    &__text{
+        font-size: 1.1rem;
+        padding: 4rem 2rem 2rem;
+        text-align: justify;
+    }
+
+    .form__wrap{
+        display: flex;
+        flex-direction: column;
+             
+    }
+
+    .massage{
+        opacity: 0;
+    }
+    
+    .massage-active{
+        opacity: 1;
+        color: red;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .form{
+        align-self: center;   
+        text-align: center;
+        border: 3px solid rgb(182, 0, 0);
+        border-radius: 3rem;
+        min-height: 3rem;
+    }
+    .btn-start{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        width: 100%;
+        margin: 1.5rem auto;
+        text-align: center;
+        padding: 1rem 2rem;
+        border: 0.2rem solid rgb(119, 119, 119);
+        border-radius: 3rem;
+        display: block;
+        max-width: 10rem;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        background-color: rgb(100, 100, 100);
+    }
+    .btn-start--active {
+        border: 0.2rem solid rgb(146, 0, 0);
+        background-color: rgb(218, 1, 1);
+      }
+}
+}
+
