@@ -4,6 +4,7 @@ $colwin: rgb(250, 250, 250);
 
 html {
     background-color: $bg-fon;
+    overflow: hidden;
 }
 
 
@@ -29,18 +30,18 @@ html {
     }
     }
     &__window {
-        width: 50rem;
+        margin: -3rem 1rem 0rem;
+        max-width: 50rem;
         min-height: 25rem;
         border: 3px solid red;
         background-color: $colwin;
         border-radius: 5rem;
-        margin-top: -2rem;
         transition: margin-top .3s;
         box-sizing: border-box;
     }
 
     &__window:hover{
-        margin-top: -3rem;
+        margin-top: -2rem;
     }
 
     &__text{
@@ -52,7 +53,6 @@ html {
     .form__wrap{
         display: flex;
         flex-direction: column;
-             
     }
 
     .massage{

@@ -1,0 +1,47 @@
+.nice-dick__wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
+.nice-dick {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 25%;
+    transition: width .3s;
+
+    &:hover{
+        width: 26%;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+}
+
+.nice-message__wrap {
+    width: 100%;
+    height: 100%;
+.nice-message {
+    position: absolute;
+    background: url(../img/nice_dick_message.png) no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 36%;
+    right: 3%;
+    bottom: 78%;
+    display: flex;
+    justify-content: center;
+
+    &__text{
+        align-self: center;
+        margin-top: -10%;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+}
